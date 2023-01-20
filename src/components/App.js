@@ -11,7 +11,7 @@ const App = () => {
   };
 
   return (
-    <div>
+    <div id="main">
       <ChildComponent
         inputValue={inputValue}
         onChange={handleInputChange}
